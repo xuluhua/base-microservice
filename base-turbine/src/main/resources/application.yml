@@ -13,7 +13,7 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 
 turbine:
-  appConfig: orderapi,orderweb,orderwap
+  appConfig: catologapi,catologweb,catologwap
   aggregator:
     clusterConfig: default
   clusterNameExpression: new String("default")
