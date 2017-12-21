@@ -20,5 +20,5 @@ turbine:
 zipkin:
   build: ./zipkin
   ports:
-   - "9012:9012"
+   - "9987:9987"
 

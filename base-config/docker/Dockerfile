@@ -1,6 +1,6 @@
 FROM java:8
 VOLUME /tmp
-ADD base-config-1.0.0-SNAPSHOT.jar app.jar
+ADD base-config-1.0-SNAPSHOT.jar app.jar
 RUN bash -c 'touch /app.jar'
 RUN /bin/cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && echo 'Asia/Shanghai' >/etc/timezone
